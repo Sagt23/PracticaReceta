@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="266.0" layoutY="47.0" text="Zacahuil">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="93.0" text="Receta completa:" />
+      <Label layoutX="342.0" layoutY="90.0" text="Ingredientes:" />
+      <Label layoutX="344.0" layoutY="200.0" text="Preparación:" />
+      <Label layoutX="342.0" layoutY="310.0" text="Preguntas con respuestas:" />
+      <Button layoutX="380.0" layoutY="435.0" mnemonicParsing="false" onAction="#procesar" text="Procesar" />
+      <TextArea fx:id="txtReceta" layoutX="34.0" layoutY="111.0" prefHeight="330.0" prefWidth="237.0" />
+      <TextArea fx:id="txtIngredientes" layoutX="305.0" layoutY="109.0" prefHeight="90.0" prefWidth="237.0" />
+      <TextArea fx:id="txtPreparacion" layoutX="305.0" layoutY="218.0" prefHeight="90.0" prefWidth="237.0" />
+      <TextArea fx:id="txtPreguntas" layoutX="305.0" layoutY="330.0" prefHeight="90.0" prefWidth="237.0" />
+   </children>
+</AnchorPane>
